@@ -29,6 +29,8 @@ namespace CavuCafe
             }
             app.UseMvc();
 
+            app.UseStaticFiles();
+
             app.UseSession();
 
             app.UseRouting();
