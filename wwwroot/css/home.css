@@ -5,7 +5,8 @@
     text-align: center;
     font-size: 144px;
     justify-content: center;
-    padding-top: 25%;
+    padding-top: 20%;
+    color: burlywood;
 }
 .openhours {
     font-family: Calibri, sans-serif;
@@ -13,6 +14,7 @@
     font-weight: lighter;
     text-align: center;
     font-size: 36px;
+    color: burlywood;
 }
 .wrapper {
     display: flex;
@@ -20,6 +22,10 @@
 }
 .content {
     text-align: center;
+}
+
+.container {
+    height: 100vh;
 }
 
 #sidebar {

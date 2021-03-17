@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace CavuCafe.Controllers
 {
     public class HomeController : Controller
@@ -7,6 +8,7 @@ namespace CavuCafe.Controllers
         [HttpGet("/")]
         public ViewResult Home()
         {
+            ViewBag.apiKey = "";
             return View();
         }
     }
